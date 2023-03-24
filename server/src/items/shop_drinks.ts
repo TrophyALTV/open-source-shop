@@ -42,7 +42,7 @@ export const shopDrinks: Array<BaseItem> = [
     },
     {
         name: 'Bread',
-        icon: 'bread',
+        icon: '@AthenaPlugins/icons/open-source-shop/bread.png',
         behavior: drinkBehavior,
         data: {
             amount: 5,
