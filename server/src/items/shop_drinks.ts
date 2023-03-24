@@ -41,7 +41,7 @@ export const shopDrinks: Array<BaseItem> = [
         weight: 0.75,
     },
     {
-        name: 'Brot',
+        name: 'Bread',
         icon: 'bread',
         behavior: drinkBehavior,
         data: {
