@@ -40,4 +40,16 @@ export const shopDrinks: Array<BaseItem> = [
         dbName: 'shop-cola',
         weight: 0.75,
     },
+    {
+        name: 'Brot',
+        icon: 'bread',
+        behavior: drinkBehavior,
+        data: {
+            amount: 5,
+            event: effects.EFFECT_WATER,
+            sound: 'item_eat',
+        },
+        dbName: 'bread',
+        weight: 0.75,
+    },
 ];
